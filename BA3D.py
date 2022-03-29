@@ -7,7 +7,6 @@ txt = input()
 
 niz = []
 for i in range(len(txt) - (k-1)):
-    #d[txt[i:i+(k-1)]] = txt[i+1:i+k]
     niz.append((txt[i:i+(k-1)], txt[i+1:i+k]))
 
 d = defaultdict(list)
